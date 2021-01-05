@@ -1,0 +1,242 @@
+/* #212121; цвет основного текста */
+
+/* #757575; вторичный цвет текста */
+
+/* #2196F3; цвет логотипа */
+
+/* #ffffff цвет внутри кнопки */
+
+/* rgba(255, 255, 255, 0.6); цвет подвала имейл и телефон */
+
+/* #2F303A; фон решения безнеса */
+
+/* #F5F4FA фон наша команда */
+
+/* logo-style */
+
+:root {
+  --general-color-text: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --background-color-blue: #2f303a;
+  --text-title-white: #ffffff;
+  --bgc-button: #e5e5e5;
+  --bgc-team: #f5f4fa;
+}
+/* Body */
+body {
+  background-color: #ffffff;
+  color: var(--general-color-text);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* logo */
+.logo {
+  color: #212121;
+  font-family: raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+.logo .studio {
+  color: var(--text-title-white);
+}
+
+.list {
+  list-style: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav,
+.link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link-blue {
+  color: var(--accent-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* contacts-list up */
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-list .link {
+  color: var(--general-color-text);
+  text-decoration: none;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--background-color-blue);
+}
+.hero .title {
+  color: var(--text-title-white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* Button Hero */
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* qualities */
+
+.qualities .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.qualities .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* product-work */
+.product-work .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* team-section */
+.team-section .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-section .name-title {
+  color: var(--title-text-color);
+}
+
+.team-section .text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-section {
+  background-color: var(--bgc-team);
+}
+
+.team-section .bgc-foto {
+  background-color: #fff;
+  width: 270px;
+  height: 368;
+}
+/* Footer */
+.footer {
+  background-color: var(--background-color-blue);
+}
+
+.address {
+  color: var(--text-title-white);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .info {
+  color: var(--general-color-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+/* Portfolio HTML */
+/* filter portfolio */
+
+.filter-button .link {
+  color: var(--title-text-color);
+  background-color: var(--bgc-button);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter-button .link:hover,
+.filter-button .link:focus {
+  background-color: var(--accent-color);
+  color: var(--text-title-white);
+}
+button {
+  font-family: inherit;
+}
+/* portfolio cards */
+.portfolio .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio .link {
+  text-decoration: none;
+}
+
+.portfolio .section {
+  width: 370px;
+  height: 404px;
+}
