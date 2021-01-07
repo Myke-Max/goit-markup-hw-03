@@ -52,6 +52,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 .logo:hover,
 .logo:focus {
@@ -80,7 +82,7 @@ body {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -113,11 +115,21 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: lawngreen;
 }
 /* Button Hero */
 .button {
   color: #ffffff;
   background-color: #2196f3;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 /* qualities */
@@ -157,10 +169,13 @@ body {
 }
 .team-section .name-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team-section .text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -201,7 +216,7 @@ body {
 
 .filter-button .link {
   color: var(--title-text-color);
-  background-color: var(--bgc-button);
+  background-color: var(--bgc-team);
 
   font-weight: 500;
   font-size: 16px;
@@ -234,6 +249,9 @@ button {
 
 .portfolio .link {
   text-decoration: none;
+}
+.portfolio .link:visited {
+  color: var(--general-color-text);
 }
 
 .portfolio .section {
