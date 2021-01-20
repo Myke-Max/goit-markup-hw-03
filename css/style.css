@@ -41,8 +41,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-
-  width: 145px;
 }
 
 .navigation .logo {
@@ -61,6 +59,9 @@ body {
   list-style: none;
   padding: 0px;
   margin: 0px;
+}
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -184,10 +185,6 @@ body {
 
 /* qualities */
 
-.qualities {
-  background-color: lawngreen;
-}
-
 .qualities-list {
   display: flex;
 }
@@ -222,10 +219,6 @@ body {
 /* product-work */
 .product-work .work-list {
   display: flex;
-}
-
-.product-work {
-  background-color: lightsalmon;
 }
 
 .product-work .title {
@@ -358,6 +351,7 @@ body {
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px;
+  cursor: pointer;
 }
 
 .filter-button .btn-list:not(:last-child) {
@@ -375,7 +369,7 @@ button {
 
 /* h1 portfolio */
 .hide-title {
-  margin: 0;
+  visibility: hidden;
 }
 
 /* portfolio cards */
