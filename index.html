@@ -16,7 +16,8 @@
 <body>
     <!-- headbar -->
     <header>
-        <nav class="navigation container">
+        <div class="container">
+        <nav class="navigation">
             <a href="./index.html"class="logo"> <span class="web">Web</span>Studio</a>
 
             <ul class="site-nav list">
@@ -24,11 +25,13 @@
                 <li class="item" ><a href="./portfolio.html" class="link">Портфолио</a></li>
                 <li class="item" ><a href="" class="link">Контакты</a></li>
             </ul>
-            <ul class="contacts-list list">
-                <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
         </nav>
+        <ul class="contacts-list list">
+            <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+        </div>
+        
 
         
 
@@ -97,32 +100,41 @@
     <!-- team-section -->
     
             <section class="team-section">
-                <div class="container no-margin">
+                <div class="container">
                     <h2 class="title">Наша Команда</h2>
                         <ul class="team-list list">
-                            <li class="item bgc-foto">
+                            <li class="item">
                                     <img class="img-team" src="./img/Игорь-Демьяненко.jpg" alt="Игорь-Демьяненко" width="270" height="260">
+                                <div class="padding-studio">
                                     <h3 class="name-title">Игорь Демьяненко</h3>
                                     <p class="text">Product Designer</p>
+                                </div>
                             
                             </li>
 
-                            <li class="item bgc-foto">
+                            <li class="item">
                                 <img class="img-team" src="./img/Ольга-Репина.jpg" alt="Ольга-Репина" width="270" height="260">
-                                <h3 class="name-title">Ольга Репина</h3>
+                            <div class="padding-studio">
+                                    <h3 class="name-title">Ольга Репина</h3>
                                 <p class="text">Frontend Developer</p>
+                            </div>
+
                             </li>
 
-                            <li class="item bgc-foto">
+                            <li class="item">
                                 <img class="img-team" src="./img/Николай-Тарасов.jpg" alt="Николай-Тарасов" width="270" height="260">
-                                <h3 class="name-title">Николай Тарасов</h3>
-                                <p class="text">Marketing</p>
+                                <div class="padding-studio">
+                                    <h3 class="name-title">Николай Тарасов</h3>
+                                    <p class="text">Marketing</p>
+                                </div>
                             </li>
 
-                            <li class="item bgc-foto">
+                            <li class="item">
                                 <img class="img-team" src="./img/Михаил-Ермаков.jpg" alt="Михаил-Ермаков" width="270" height="260">
-                                <h3 class="name-title">Михаил Ермаков</h3>
-                                <p class="text">UI Designer</p>
+                                <div class="padding-studio">
+                                    <h3 class="name-title">Михаил Ермаков</h3>
+                                    <p class="text">UI Designer</p>
+                                </div>
                             </li>
 
                         </ul>
